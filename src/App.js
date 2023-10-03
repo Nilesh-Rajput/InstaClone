@@ -1,10 +1,13 @@
 
 import './App.css';
+// eslint-disable-next-line
+import React, { Component }  from 'react';
+import LoginPage from './Components/LoginPage/LoginPage';
 
 function App() {
   return (
     <div className="App">
-     
+        <LoginPage/>
     </div>
   );
 }
